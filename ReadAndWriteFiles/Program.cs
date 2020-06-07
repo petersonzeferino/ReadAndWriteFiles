@@ -2,6 +2,7 @@
 using ReadAndWriteFiles.Models;
 using System;
 using System.Collections.Generic;
+using System.IO;
 
 namespace ReadAndWriteFiles
 {
@@ -9,12 +10,15 @@ namespace ReadAndWriteFiles
     {
         public static void Main(string[] args)
         {
-            
+            Random randomValue = new Random();
+            string path = $"{Directory.GetCurrentDirectory()}\\MyFile_{randomValue.Next()}.csv";
+
+            CreateCSV(path);
         }
 
-        private static void CreateCSV()
+        private static void CreateCSV(string path)
         {
-            CreateCSV<FileModel>.WriteCSV(FactoryFileModel());
+            CreateCSV<FileModel>.WriteCSV(FactoryFileModel(),path);
         }
 
         private static IEnumerable<FileModel> ReadCSV(string path)
@@ -60,5 +64,6 @@ namespace ReadAndWriteFiles
 
             return list;
         }
+
     }
 }
