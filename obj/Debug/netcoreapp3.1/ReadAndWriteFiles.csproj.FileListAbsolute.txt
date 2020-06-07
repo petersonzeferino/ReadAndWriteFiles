@@ -5,9 +5,11 @@ D:\Development\GitHub\ReadAndWriteFiles\bin\Debug\netcoreapp3.1\ReadAndWriteFile
 D:\Development\GitHub\ReadAndWriteFiles\bin\Debug\netcoreapp3.1\ReadAndWriteFiles.dll
 D:\Development\GitHub\ReadAndWriteFiles\bin\Debug\netcoreapp3.1\ReadAndWriteFiles.pdb
 D:\Development\GitHub\ReadAndWriteFiles\obj\Debug\netcoreapp3.1\ReadAndWriteFiles.csprojAssemblyReference.cache
-D:\Development\GitHub\ReadAndWriteFiles\obj\Debug\netcoreapp3.1\ReadAndWriteFiles.csproj.CoreCompileInputs.cache
 D:\Development\GitHub\ReadAndWriteFiles\obj\Debug\netcoreapp3.1\ReadAndWriteFiles.AssemblyInfoInputs.cache
 D:\Development\GitHub\ReadAndWriteFiles\obj\Debug\netcoreapp3.1\ReadAndWriteFiles.AssemblyInfo.cs
 D:\Development\GitHub\ReadAndWriteFiles\obj\Debug\netcoreapp3.1\ReadAndWriteFiles.dll
 D:\Development\GitHub\ReadAndWriteFiles\obj\Debug\netcoreapp3.1\ReadAndWriteFiles.pdb
 D:\Development\GitHub\ReadAndWriteFiles\obj\Debug\netcoreapp3.1\ReadAndWriteFiles.genruntimeconfig.cache
+D:\Development\GitHub\ReadAndWriteFiles\bin\Debug\netcoreapp3.1\CsvHelper.dll
+D:\Development\GitHub\ReadAndWriteFiles\obj\Debug\netcoreapp3.1\ReadAndWriteFiles.csproj.CoreCompileInputs.cache
+D:\Development\GitHub\ReadAndWriteFiles\obj\Debug\netcoreapp3.1\ReadAndWriteFiles.csproj.CopyComplete
