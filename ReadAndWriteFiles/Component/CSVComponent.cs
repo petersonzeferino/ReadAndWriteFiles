@@ -8,7 +8,7 @@ using System.Text;
 
 namespace ReadAndWriteFiles.Component
 {
-    public static class CreateCSV<T>
+    public static class CSVComponent<T>
     {
         public static void WriteCSV(IList<T> records, string path = "")
         {
