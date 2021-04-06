@@ -7,9 +7,9 @@ namespace ReadAndWriteFiles.Application.Services
 {
     public class ExcelService : IExcelService
     {
-        readonly RequestEntity _entity = new RequestEntity();
-        readonly String _path;
-        readonly String _typeExcel = ".xlsx";        
+        private readonly RequestEntity _entity = new RequestEntity();
+        private readonly String _path;
+        private readonly String _typeExcel = ".xlsx";        
 
         public ExcelService()
         {

@@ -9,9 +9,9 @@ namespace ReadAndWriteFiles.Application.Services
 {
     public class CSVService : ICSVService
     {
-        readonly RequestEntity _entity = new RequestEntity();
-        readonly String _path;
-        readonly String _typeCSV = ".xlsx";
+        private readonly RequestEntity _entity = new RequestEntity();
+        private readonly String _path;
+        private readonly String _typeCSV = ".xlsx";
 
         public CSVService()
         {
