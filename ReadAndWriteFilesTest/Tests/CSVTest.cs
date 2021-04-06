@@ -5,7 +5,7 @@ using Xunit;
 
 namespace ReadAndWriteFilesTest.Tests
 {
-    public class WriteExcelTest
+    public class CSVTest
     {
 
     }
