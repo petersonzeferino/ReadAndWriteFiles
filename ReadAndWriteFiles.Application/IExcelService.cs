@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace ReadAndWriteFiles.Application
+﻿namespace ReadAndWriteFiles.Application
 {
     public interface IExcelService
     {

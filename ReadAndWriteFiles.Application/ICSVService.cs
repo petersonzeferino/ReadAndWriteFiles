@@ -1,7 +1,5 @@
 ﻿using ReadAndWriteFiles.Domain.Entities.CSV;
-using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace ReadAndWriteFiles.Application
 {

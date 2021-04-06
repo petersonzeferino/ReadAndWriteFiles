@@ -1,9 +1,7 @@
 ﻿using ReadAndWriteFiles.Application;
 using ReadAndWriteFiles.Application.Services;
 using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Text;
 using Xunit;
 
 namespace ReadAndWriteFilesTest.Tests

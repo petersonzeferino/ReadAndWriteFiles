@@ -1,9 +1,6 @@
 ﻿using ReadAndWriteFiles.Domain.Component;
 using ReadAndWriteFiles.Domain.Entities.CSV;
-using System;
 using System.Collections.Generic;
-using System.IO;
-using System.Text;
 
 namespace ReadAndWriteFiles.Application.Services
 {
