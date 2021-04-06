@@ -4,6 +4,6 @@ namespace ReadAndWriteFiles.Application
 {
     public interface IExcelService
     {
-        public void WriteExcel();
+        public void WriteExcel(string path);
     }
 }
