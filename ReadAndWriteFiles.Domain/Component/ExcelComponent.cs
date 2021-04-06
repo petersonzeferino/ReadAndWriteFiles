@@ -1,6 +1,7 @@
 ﻿using ClosedXML.Excel;
 using ReadAndWriteFiles.Domain.Entities.CSV;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace ReadAndWriteFiles.Domain.Component
 {
@@ -28,5 +29,31 @@ namespace ReadAndWriteFiles.Domain.Component
                 workbook.SaveAs(path);
             }
         }
+
+
+
+        //ExcelWorksheet worksheet = package.Workbook.Worksheets[1];
+        //ExcelWorksheet worksheet2 = RemoverLinhasVazias(worksheet);
+
+        //public ExcelWorksheet RemoverLinhasVazias(ExcelWorksheet worksheet)
+        //{
+        //    while (VerificarUltimaLinha(worksheet))
+        //        worksheet.DeleteRow(worksheet.Dimension.End.Row);
+
+        //    return worksheet;
+        //}
+
+        //public static bool VerificarUltimaLinha(ExcelWorksheet worksheet)
+        //{
+        //    var empties = new List<bool>();
+
+        //    for (int i = 1; i <= worksheet.Dimension.End.Column; i++)
+        //    {
+        //        var rowEmpty = worksheet.Cells[worksheet.Dimension.End.Row, i].Value == null ? true : false;
+        //        empties.Add(rowEmpty);
+        //    }
+
+        //    return empties.All(e => e);
+        //}
     }
 }
