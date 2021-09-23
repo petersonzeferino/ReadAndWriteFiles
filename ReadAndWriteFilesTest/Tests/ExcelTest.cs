@@ -1,7 +1,6 @@
 ﻿using ReadAndWriteFiles.Application;
 using ReadAndWriteFiles.Application.Services;
 using ReadAndWriteFilesTest.Helpers;
-using System;
 using System.IO;
 using Xunit;
 

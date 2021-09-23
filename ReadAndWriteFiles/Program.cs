@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-
-namespace ReadAndWriteFiles
+﻿namespace ReadAndWriteFiles
 {
     public class Program
     {
